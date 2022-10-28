@@ -1,0 +1,42 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: 600;
+}
+body {
+   background-image: linear-gradient(to right bottom, #ffe3e1, #ff9494);
+}
+.App {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+.listItems {
+    box-shadow: 2px 2px 2px 2px #df7861;
+   border-radius: 10px;
+   width: 70vw;
+   height: fit-content;
+}
+.listItemDress {
+   margin: 20px;
+   border-radius: 5px;
+   text-transform: capitalize;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #DDDDDD;
+   color: black;
+   box-shadow: inset 2px 2px 5px #719FB0;
+   text-shadow: 5px 5px 5px 5px black;
+}
+button {
+    cursor: pointer;
+   border: 0;
+   padding: 10px;
+   background-color: teal;
+   color: white;
+   border-radius: 2px;
+}
+.dressImage {
+   height: 100px;
+   max-width: 200px;
+}
